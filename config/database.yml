@@ -49,6 +49,7 @@ test:
 #
 production:
   <<: *default
-  database: sns_mentor_production
-  username: sns_mentor
-  password: <%= ENV['SNS_MENTOR_DATABASE_PASSWORD'] %>
+  host: us-cdbr-iron-east-04.cleardb.net
+  database: heroku_dc5d204573a8695
+  username: b619780fa8bc32
+    password: <%= ENV['DATABASE_PASSWORD'] %>
