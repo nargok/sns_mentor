@@ -52,4 +52,4 @@ production:
   host: us-cdbr-iron-east-04.cleardb.net
   database: heroku_dc5d204573a8695
   username: b619780fa8bc32
-    password: <%= ENV['DATABASE_PASSWORD'] %>
+  password: <%= ENV['DATABASE_PASSWORD'] %>
